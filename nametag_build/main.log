@@ -1,0 +1,225 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.8) (preloaded format=pdflatex 2022.10.18)  28 APR 2023 20:32
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/mock_int_OR/nametag_build/main.tex
+(c:/mock_int_OR/nametag_build/main.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-08-05> (D:\Programs\miktex\tex/latex/base\letter.cls
+Document Class: letter 2021/12/07 v1.3c Standard LaTeX document class
+(D:\Programs\miktex\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\longindentation=\dimen138
+\indentedwidth=\dimen139
+\labelcount=\count185
+) (D:\Programs\miktex\tex/latex/ticket\ticket.sty
+Package: ticket 2016/10/11 v0.4d
+
+Package: `ticket' v0.4d <2016/10/11> (Thomas Emmel)
+(D:\Programs\miktex\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (D:\Programs\miktex\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count186
+\calc@Bcount=\count187
+\calc@Adimen=\dimen140
+\calc@Bdimen=\dimen141
+\calc@Askip=\skip47
+\calc@Bskip=\skip48
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count188
+\calc@Cskip=\skip49
+)
+\c@ticket@x=\count189
+\c@ticket@y=\count190
+\c@ticket@num@X=\count191
+\c@ticket@num@Y=\count192
+\ticketWidth=\dimen142
+\ticketHeight=\dimen143
+\ticket@dis@X=\dimen144
+\ticket@dis@Y=\dimen145
+
+load freepin.tdf
+(D:\Programs\miktex\tex/latex/ticket\freepin.tdf)
+\ticket@shift@x=\dimen146
+\ticket@shift@y=\dimen147
+\back@shift=\dimen148
+\c@ticket@skipped=\count193
+) (D:\Programs\miktex\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:\Programs\miktex\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (D:\Programs\miktex\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (D:\Programs\miktex\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (D:\Programs\miktex\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (D:\Programs\miktex\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+) (D:\Programs\miktex\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-08-05 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box51
+) (main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+ (D:\Programs\miktex\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count195
+\scratchdimen=\dimen151
+\scratchbox=\box52
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen152
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks18
+) (D:\Programs\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (D:\Programs\miktex\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+<images/watermark2.png, id=1, 307.3884pt x 108.405pt>
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 48.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 49.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 50.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 51.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 52.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 53.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 54.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 55.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 56.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 57.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 58.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 59.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 60.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 61.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+ [1
+
+{C:/Users/701da/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/watermark2.png>]
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 62.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 63.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 64.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 65.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 66.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 67.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 68.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 69.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+File: images/watermark2.png Graphic file (type png)
+<use images/watermark2.png>
+Package pdftex.def Info: images/watermark2.png  used on input line 70.
+(pdftex.def)             Requested size: 324.3614pt x 114.3943pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--71
+
+ []
+
+[2] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 1487 strings out of 477992
+ 24562 string characters out of 2839659
+ 334471 words of memory out of 3000000
+ 20288 multiletter control sequences out of 15000+600000
+ 470173 words of font info for 31 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,9n,62p,241b,227s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<D:/Programs/miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Programs/miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programs/miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on main.pdf (2 pages, 61239 bytes).
+PDF statistics:
+ 27 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

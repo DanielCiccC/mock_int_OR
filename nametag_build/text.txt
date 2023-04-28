@@ -1,0 +1,43 @@
+%%%%
+%
+% ticket.sty example file for a pin for conferences
+%
+%%%%
+% use the corresponding paper size for your ticket definition
+\documentclass[a4paper,10pt]{letter}
+
+% load ticket.sty with the appropriate ticket definition
+\usepackage[freepin,crossmark]{ticket}
+
+
+\unitlength=1mm
+\ticketSize{99.1}{34}
+\hoffset=-18.2mm 
+\voffset=-16mm 
+\ticketNumbers{2}{8} 
+\ticketDistance{0}{0}
+
+% load misc stuff
+\usepackage{graphicx}
+\fontfamily{cmss}
+% make your default ticket. \ticketdefault is somewhat like a background
+\renewcommand{\ticketdefault}{%
+\put(27,5){\line(0,1){24}}
+}
+
+% now what do you like to put in your ticket
+\newcommand{\confpin}[3]{\ticket{%
+    \put(29,20){{\bfseries\LARGE\sffamily #1}}
+    \put(29,13){{\bfseries\Large\sffamily #2}}%
+    \put(4,  7){\includegraphics[width=20mm]{#3}}
+}}
+% \begin{flushleft}...\end{flushleft}
+
+%% the pins for the partipiciants ... ;-)
+%% you can generate this part from a database!
+\begin{document}
+\confpin{Daniel Ciccotosto-Camp}{LIT Sponsorship}{LOGO}
+\confpin{John Doe}{WP Engine}{wpengine}
+\confpin{Lois Min}{LIT Corporate}{LOGO}
+\confpin{Maya Baxter}{LIT President}{LOGO}
+\end{document}

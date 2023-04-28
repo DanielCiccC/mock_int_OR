@@ -1,0 +1,71 @@
+%%%%
+%
+% ticket.sty example file for a pin for conferences
+%
+%%%%
+% use the corresponding paper size for your ticket definition
+\documentclass[a4paper,10pt]{letter}
+
+% load ticket.sty with the appropriate ticket definition
+\usepackage[freepin]{ticket}
+
+
+\unitlength=1mm
+\ticketSize{99.1}{39} %change width and height here
+\hoffset=-22.2mm 
+\voffset=-16mm 
+\ticketNumbers{2}{7} 
+\ticketDistance{0}{0}
+
+% load misc stuff
+\usepackage{graphicx}
+% \fontfamily{lmodern}
+% make your default ticket. \ticketdefault is somewhat like a background
+\renewcommand{\ticketdefault}{%
+% \put(10,23){\line(1,0){80}}
+}
+
+% now what do you like to put in your ticket
+\newcommand{\confpin}[6]{\ticket{%
+
+    \put(0,0){\includegraphics[width=114mm]{#1}}
+    \put(50,27){\makebox[0mm]{\centering{\huge\rmfamily{\textbf{#6}}}}} 
+    % {{\centering\bfseries\LARGE\sffamily #1}}
+    \put(8,20){R1: {\bfseries\rmfamily #2}}%
+    \put(8,15){R2: {\bfseries\rmfamily #3}}%
+    \put(8,10){R3: {\bfseries\rmfamily #4}}%
+    \put(8,5){R4: {\bfseries\rmfamily #5}}%
+
+    
+}}
+% \begin{flushleft}...\end{flushleft}
+
+
+
+%% the pins for the partipiciants ... ;-)
+%% you can generate this part from a database!
+\begin{document}
+\confpin{images/watermark2}{Company C: Kody Ward}{Company B: Francis Macdonald}{Company H: Manuel Larsen}{Company I: Xiomara Molina}{Student 4}
+\confpin{images/watermark2}{Company H: Demetrius Barron}{Company G: Camden Reyes}{Company I: Anya Singh}{Company A: Rylie Maddox}{Student 22}
+\confpin{images/watermark2}{Company A: Emilio White}{Company I: Anya Singh}{Company J: Prince Waters}{Company G: Camden Reyes}{Student 20}
+\confpin{images/watermark2}{Company B: Layla Coffey}{Company I: Xiomara Molina}{Company G: Camden Reyes}{Company D: Roberto Sanders}{Student 1}
+\confpin{images/watermark2}{Company I: Anya Singh}{Company H: Manuel Larsen}{Company C: Kody Ward}{Company D: Dallas Guevara}{Student 13}
+\confpin{images/watermark2}{Company J: Prince Waters}{Company C: Dakota Harmon}{Company D: Dallas Guevara}{Company B: Harley Gross}{Student 10}
+\confpin{images/watermark2}{Company H: Manuel Larsen}{Company G: Stormi Valentine}{Company B: Layla Coffey}{Company J: Prince Waters}{Student 5}
+\confpin{images/watermark2}{Company G: Camden Reyes}{Company D: Ariana Friedman}{Company C: Rosalia Frye}{Company E: Alianna Carey}{Student 15}
+\confpin{images/watermark2}{Company B: Francis Macdonald}{Company E: Alianna Carey}{Company D: Franco Gillespie}{Company F: Ruben Stuart}{Student 9}
+\confpin{images/watermark2}{Company D: Dallas Guevara}{Company C: Rosalia Frye}{Company F: Theodore Reid}{Company A: Emilio White}{Student 12}
+\confpin{images/watermark2}{Company J: Louis Osborne}{Company A: Rylie Maddox}{Company B: Harley Gross}{Company H: Demetrius Barron}{Student 8}
+\confpin{images/watermark2}{Company A: Kairi Barr}{Company F: Theodore Reid}{Company E: Alianna Carey}{Company G: Charlee Hinton}{Student 7}
+\confpin{images/watermark2}{Company C: Angel Espinoza}{Company G: Charlee Hinton}{Company A: Emilio White}{Company F: Virginia Dixon}{Student 23}
+\confpin{images/watermark2}{Company F: Virginia Dixon}{Company A: Kairi Barr}{Company H: Demetrius Barron}{Company D: Ariana Friedman}{Student 11}
+\confpin{images/watermark2}{Company G: Charlee Hinton}{Company B: Lyric Vega}{Company A: Mckenna Hammond}{Company C: Kody Ward}{Student 21}
+\confpin{images/watermark2}{Company B: Lyric Vega}{Company D: Roberto Sanders}{Company G: Stormi Valentine}{Company A: Kairi Barr}{Student 3}
+\confpin{images/watermark2}{Company I: Xiomara Molina}{Company B: Harley Gross}{Company J: Louis Osborne}{Company G: Madison Stanley}{Student 19}
+\confpin{images/watermark2}{Company B: Harley Gross}{Company H: Demetrius Barron}{Company F: Ruben Stuart}{Company J: Louis Osborne}{Student 6}
+\confpin{images/watermark2}{Company C: Dakota Harmon}{Company F: Virginia Dixon}{Company G: Madison Stanley}{Company I: Anya Singh}{Student 2}
+\confpin{images/watermark2}{Company G: Stormi Valentine}{Company F: Ruben Stuart}{Company C: Angel Espinoza}{Company A: Mckenna Hammond}{Student 14}
+\confpin{images/watermark2}{Company D: Franco Gillespie}{Company G: Madison Stanley}{Company F: Virginia Dixon}{Company C: Angel Espinoza}{Student 16}
+\confpin{images/watermark2}{Company E: Alianna Carey}{Company J: Prince Waters}{Company I: Xiomara Molina}{Company B: Lyric Vega}{Student 18}
+\confpin{images/watermark2}{Company A: Rylie Maddox}{Company C: Kody Ward}{Company D: Roberto Sanders}{Company H: Manuel Larsen}{Student 17}
+\end{document}
